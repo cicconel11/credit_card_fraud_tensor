@@ -11,7 +11,6 @@ from imblearn.over_sampling import SMOTE
 from imblearn.under_sampling import RandomUnderSampler
 from imblearn.pipeline import Pipeline
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import precision_recall_curve, f1_score, auc, confusion_matrix
 import matplotlib.pyplot as plt
 import seaborn as sns
